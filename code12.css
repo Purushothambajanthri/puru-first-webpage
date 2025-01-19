@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(243, 247, 248);
+}
+
+.puru{
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(180deg,rgb(8, 202, 236),rgb(15, 89, 237));
+    padding: 15px;
+    color: white;
+    position: sticky;
+    top: 0px;
+
+}
+nav{
+    background-color: lightgray;
+    padding: 8px;
+    text-align: center;
+    position: sticky;
+    top: 90px;
+
+}
+nav a{
+    
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    
+}
+nav a:hover{
+    background-size: auto;
+    background-color:gray;
+    color: aliceblue;
+    box-shadow:  0 0 10px black;
+    
+}
+.puru1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(84, 81, 81);
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+button{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 6px;
+    box-shadow: 1px 1pt 20px black;
+    border-radius: 10%;
+}
+
+.puru3{
+   border-radius: 30%;
+
+}
+figure{
+    border: 2px solid rgb(186, 153, 23);
+    width: 300px;
+    padding: 10px;
+    background-color: lightgray;
+    display: inline-block;
+    box-shadow: 0 0 30px rgba(243, 235, 3, 0.963);
+    
+}
+
+figure img {
+    width: 100%;
+    
+   
+    
+}
+figure figcaption{
+    color: white;
+    padding: 10px;
+    
+}
+footer{
+    background: linear-gradient(180deg,rgb(119, 197, 242),rgb(12, 244, 236));
+    color: white;
+    padding: 10px;
+    margin: 1px;
+}
